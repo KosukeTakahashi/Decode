@@ -5,7 +5,7 @@ public class Main
 {
 	public static void main(String[] args)
 	{
-		String src = "髙橋孝輔";
+		String src = "<なまえ>";
 		int[] result = gen(src);
 		for (int r : result)
 		    System.out.println(Integer.toHexString(r));
